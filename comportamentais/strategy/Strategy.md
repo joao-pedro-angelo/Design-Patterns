@@ -1,5 +1,7 @@
 # Strategy
 
+> Veja a modelagem deste padrão: [Modelagem - Strategy](/imagens/img02.png)
+
 > Classe Contexto: classe principal que possue uma referência para uma interface
 
 > Interface Estratégia - Strategy: define o que é comum a todas as estratégias de implementação
