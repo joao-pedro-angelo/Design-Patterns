@@ -96,7 +96,7 @@ Uma solução que se encaixa nos requisitos acima, é a classe principal delegar
 para uma instância de uma classe que a compõe. Dessa forma, para trocar o comportamento do método,
 basta trocar a instância que a compõe, por meio de um método setter.
 
-![img01](/imagens/img01)
+![img01](/imagens/img01.png)
 
 ```java
 public class ContaEstacionamento{
