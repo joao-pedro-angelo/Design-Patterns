@@ -2,7 +2,7 @@ package comportamentais.templateMethod.impl;
 
 public class SubClasse01 extends SuperClasse{
     @Override
-    String metodoAux() {
+    protected String metodoAux() {
         return "01";
     }
 }

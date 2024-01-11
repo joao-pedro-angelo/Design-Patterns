@@ -4,7 +4,7 @@ public class SubClasse02 extends SuperClasse{
 
 
     @Override
-    String metodoAux() {
+    protected String metodoAux() {
         return "02";
     }
 }
