@@ -4,6 +4,10 @@
 > A ideia gerar é criar uma classe que herde a classe do objeto não-nulo. Em seguida, sobrescreva os métodos getters,
 > retornando um valor padrão.
 
+> Esse padrão é um bom exemplo de uso de herança.
+> <br> A herança tem que ser usada com muita cautela. Quase sempre é melhor usar composição.
+> <br> Porém, no caso do Null Object, ele é bem implementado com herança.
+
 ---
 ## Contexto
 
