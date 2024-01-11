@@ -14,14 +14,14 @@
 
 
 ```java
-public class SuperClasse{
+public abstract class SuperClasse{
     
     public String metodoPrincipal(){
         return this.metodoHook();
     }
     
     //Hook method
-    private abstract String metodoHook();
+    abstract String metodoHook();
 }
 ```
 
