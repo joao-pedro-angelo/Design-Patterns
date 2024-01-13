@@ -18,7 +18,7 @@ a melhor decisão na hora de modelar e desenvolver o software.
 ---
 ## Padrões abordados neste repositório
 
-### [Strategy](/comportamentais/strategy)
+### [Strategy](/comportamentais/strategy/Strategy.md)
 
 > Diversos algoritmos que podem ser usados de forma intercambiável.
 > Com o strategy, a escolha de qual algoritmo usar pode ser feita em tempo de execução.
@@ -30,7 +30,7 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
-### [Template Method](/comportamentais/templateMethod)
+### [Template Method](/comportamentais/templateMethod/TemplateMethod.md)
 
 > Padrão que utiliza hook methods<br>
 > Definir um algoritmo geral que estabelece uma série de passos, que podem ser executados em diferentes ordens<br>
@@ -42,7 +42,7 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
-### [Null Object](/comportamentais/nullObject)
+### [Null Object](/comportamentais/nullObject/NullObject.md)
 
 > Criação de uma entidade que herde de outra entidade. Os métodos devem ser sobrescritos
 > de modo a representar um objeto nulo. Por exemplo, os métodos getters podem retornar um valor padrão,
@@ -53,5 +53,3 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
-
-
