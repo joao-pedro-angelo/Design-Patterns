@@ -42,7 +42,7 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
-### [Null Object](/comportamentias/nullObject)
+### [Null Object](/comportamentais/nullObject)
 
 > Criação de uma entidade que herde de outra entidade. Os métodos devem ser sobrescritos
 > de modo a representar um objeto nulo. Por exemplo, os métodos getters podem retornar um valor padrão,
