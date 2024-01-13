@@ -1,7 +1,10 @@
 # Template Method
 
-> Padrão que utiliza herança e hook methods para definir um algoritmo geral que 
-> pode ter variações no seu comportamento.
+> Template Method é um modelo de algoritmo que possui algumas partes fixas e algumas partes variáveis. As partes variáveis são lacunas
+que precisam ser completadas para que o algoritmo faça realmente sentido. As lacunas são representadas como hook methods que podem ser implementados nas sub-classes. Caso seja uma lacuna obrigatória, o método deve ser definido como abstrato
+e caso a implementação seja opcional, o método pode ser concreto e normalmente
+possui uma implementação vazia. O algoritmo é representado através de um método
+na superclasse que coordena a execução dos hook methods.
 
 
 ---
@@ -12,42 +15,15 @@
 > Este método público invoca um método privado, que normalmente é definido como abstrato na superclasse e é
 > implementado ou sobrescrito por uma sub-classe, que é quem de fato irá implementar o comportamente desejado.
 
+A figura abaixo apresenta a estrutura do padrão Template Method. A
+ClasseAbstrata representa a superclasse que implementa o TemplateMethod
+e que define quais são os hook methods. A ClasseConcreta representa a classe
+que herda o Template Method da ClasseAbstrata e define uma implementação concreta dos hook methods. A classe representada como Cliente invoca o
+metodoTemplate(). Observe que apesar do tipo da variável ser do tipo da classe
+abstrata, o tipo instanciado é o da subclasse que implementa os passos concretos do
+algoritmo.
 
-```java
-public abstract class SuperClasse{
-    
-    public String metodoPrincipal(){
-        return this.metodoHook();
-    }
-    
-    //Hook method
-    abstract String metodoHook();
-}
-```
-
-```java
-public class SubClasse01 extends SuperClasse{
-    
-    public String metodoHook(){
-        return "SubClasse01";
-    }
-}
-```
-
-```java
-public class SubClasse02 extends SuperClasse{
-    
-    public String metodoHook(){
-        return "SubClasse02";
-    }
-}
-```
-
-
----
-## Estrutura do padrão
-
-![img03](/imagens/img03.png)
+![Template Method](/imagens/img04.png)
 
 
 ---
