@@ -23,6 +23,7 @@ ou outras práticas.
 
 Uma forma de evitar este processo é seguir o padrão<br> **Null Object**!
 
+> Exemplo de implementação do padrão: [NullObjectIMPL](/comportamentais/nullObject/impl)
 
 ---
 ## Implementar o padrão
