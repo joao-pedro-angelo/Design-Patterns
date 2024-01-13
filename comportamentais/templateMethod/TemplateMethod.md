@@ -25,6 +25,8 @@ algoritmo.
 
 ![Template Method](/imagens/img04.png)
 
+> Exemplo de implementação do padrão:<br> [Template Method IMPL](/comportamentais/templateMethod/impl)
+
 
 ---
 ## Template Method x Strategy

@@ -120,4 +120,4 @@ public class ContaEstacionamento{
 
 > CalculoValor é uma interface que define o método calculoValor().
 
-> Outro exemplo de implementação: [StrategyIMPL](/comportamentais/strategy/impl)
+> Outro exemplo de implementação: [Strategy IMPL](/comportamentais/strategy/impl)
