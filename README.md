@@ -16,7 +16,11 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
-## Padrões abordados neste repositório
+## Reúso por Composição
+
+> Padrões que utilizam composição<br>
+> Delegação de obrigações por meio da composição
+
 
 ### [Strategy](/comportamentais/strategy/Strategy.md)
 
@@ -30,6 +34,13 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
+## Reúso por Herança
+
+> Padrões que utilizam herança<br>
+> Superclasse define métodos abstratos que são implementados na subclasse<br>
+> Superclasse utiliza implementações da subclasse
+
+
 ### [Template Method](/comportamentais/templateMethod/TemplateMethod.md)
 
 > Padrão que utiliza hook methods<br>
@@ -42,7 +53,6 @@ a melhor decisão na hora de modelar e desenvolver o software.
 - Superclasse utilizando código implementado pela subclasse
 
 
----
 ### [Null Object](/comportamentais/nullObject/NullObject.md)
 
 > Criação de uma entidade que herde de outra entidade. Os métodos devem ser sobrescritos
@@ -55,7 +65,6 @@ a melhor decisão na hora de modelar e desenvolver o software.
 - Representação de entidade que não existe
 
 
----
 ### [Factory Method](/criacionais/factoryMethod/FactoryMethod.md)
 
 > Separação da lógica de negócios da criação das dependências<br>
@@ -64,6 +73,3 @@ a melhor decisão na hora de modelar e desenvolver o software.
 - Criação de uma classe abstrata, que define um método abstrato que retorna a dependência necessária
 - A subclasse é quem define e implementa a dependência
 - Superclasse utilizando código implementado pela subclasse
-
-
---- 
