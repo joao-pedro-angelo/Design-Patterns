@@ -53,3 +53,13 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
+### [Factory Method](/criacionais/factoryMethod/FactoryMethod.md)
+
+> Separação da lógica de negócios da criação das dependências<br>
+
+- Herança e Hook Method
+- Criação de uma classe abstrata, que define um método abstrato que retorna a dependência necessária
+- A subclasse é quem define e implementa a dependência
+
+
+---

@@ -2,6 +2,9 @@ package criacionais.factoryMethod.impl.products;
 
 import java.util.List;
 
+/*
+    Um exemplo de entidade concreta que implementa a interface DAO
+ */
 public class ProductDAO implements DAO<ProductDAO> {
     @Override
     public ProductDAO recuperaPorID(Object id) {
