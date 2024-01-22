@@ -81,7 +81,7 @@ Um dos problemas desta solução é a explosão de sub-classes.
 Porém, o principal problema é que, após instanciar um objeto, por exemplo ContaVeiculoPasseio,
 só será possível mudar a regra de negócio instanciando um outro objeto, de outra sub-classe.
 
-Para um problema como esse, é interessante ter uma solução que possibilite a flexibilidade na hora de moficar
+Para um problema como esse, é interessante ter uma solução que possibilite a flexibilidade na hora de modificar
 a regra de negócio.
 
 
@@ -121,3 +121,6 @@ public class ContaEstacionamento{
 > CalculoValor é uma interface que define o método calculoValor().
 
 > Outro exemplo de implementação: [Strategy IMPL](/comportamentais/strategy/impl)
+
+Na implementação acima, seguindo o padrão Strategy, basta instanciar um objeto da classe ContaEstacionamento e apenas com
+esta instância o mecanismo de cálculo pode ser executado. Para trocar o algoritmo, basta utilizar o método setter.
