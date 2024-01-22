@@ -64,7 +64,7 @@ Um dos grandes desafios da orientação a objetos, é identificar quando a heran
 > Imagine como seria se, para desfrutar do ar-condicionado, você precisasse compreender como ele funciona...
 
 Antes da programação estruturada, o desenvolvedor precisava compreender os detalhes da implementação de cada parte do código.
-Com a criação da funções, houve um avanço neste quesito. 
+Com a criação das funções, houve um avanço neste quesito. 
 
 O encapsulamento é um conceito importantíssimo da orientação a objetos,
 que diz que deve ter uma separação entre o comportamento interno de uma classe com a interface
@@ -75,6 +75,9 @@ Este conceito possibilita o desacoplamento entre as classes.
 Os métodos acessadores, como getters e setters, são bons exemplos de encapsulamento.
 Para os usuários destes métodos, apenas uma informação está sendo recuperada (getter) ou modificada (setter),
 porém, o método pode estar fazendo muito mais do que isso. 
+
+Ao invocar um método acessador, o usuário está fazendo uso da interface público deste método.
+O comportamento do método está encapsulado e não é visto pelo usuário.
 
 O usuário não precisa conhecer os detalhes da implementação.
 
@@ -98,6 +101,7 @@ Seguir a norma acima indica que seu sistema está com baixo acoplamento. Pois as
 detalhes da implementação de outras classes, apenas o que elas fazem, não como.
 
 > O que fazem!
+> Não como fazem.
 
 
 ---
