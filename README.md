@@ -28,6 +28,8 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 ### [Strategy](/comportamentais/strategy/Strategy.md)
 
+> Encapsula uma família de algoritmos e utiliza composição para torná-los intercambiáveis
+
 > Diversos algoritmos que podem ser usados de forma intercambiável.
 > Com o strategy, a escolha de qual algoritmo usar pode ser feita em tempo de execução.
 
