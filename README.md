@@ -40,6 +40,19 @@ a melhor decisão na hora de modelar e desenvolver o software.
 
 
 ---
+### [State](/comportamentais/state/State.md)
+
+> Encapsula diferentes estados que uma entidade pode conter<br>
+> Entidade que muda seu comportamento com base no seu estado<br>
+> Delega a execução do comportamento para o Estado
+
+- Composição
+- Classe contexto contém um objeto do tipo de uma interface
+- Estados concretos implementam a interface
+- Classe contexto delega a execução de comportamentos dependentes do estado, para os estados concretos
+
+
+---
 ## Reúso por Herança
 
 > Padrões que utilizam herança<br>
