@@ -1,7 +1,6 @@
 # State
 
-> Padrão de projeto que visa proporcionar a um objeto uma mudança de comportamento
-> tendo como base seu estado interno
+> Mudança de comportamento tendo como base o estado interno de um objeto
 
 > Veja a implementação: [State IMPL](/comportamentais/state/impl)
 
@@ -69,5 +68,5 @@ permitindo que eles alterem o contexto à vontade. Ou seja, os estados podem alt
 - Declare a interface do estado. Mire apenas em métodos que sejam comuns a todos os estados
 - Para cada estado real, crie uma classe que implemente a interface
 - Você pode perceber que o estado depende de dados do Contexto... Você pode contornar isso por meio de métodos acessadores públicos
-- Na classe Contexto, adicione um campo de referência do tipo da interface do estado e um setter pública para aquele atributo
-- Para trocar o estado do contexto, crie uma instância do estado desejado e passe para o contexto. O ideal é que isso seja feito no Cliente ou no próprio Estado. Isso gera uma dependência entre a classe que criou e o Estado
+- Na classe Contexto, adicione um campo de referência do tipo da interface do estado e um setter público para aquele atributo
+- Para trocar o estado do contexto, crie uma instância do estado desejado e passe para o contexto. O ideal é que isso seja feito no Cliente ou no próprio Estado. Isso gera uma dependência entre a classe que criou e o Estado criado
