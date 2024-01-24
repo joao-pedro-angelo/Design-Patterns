@@ -22,16 +22,13 @@ a melhor decisão na hora de modelar e desenvolver o software.
 ---
 ## Reúso por Composição
 
-> Padrões que utilizam composição<br>
 > Delegação de obrigações por meio da composição
 
 
 ### [Strategy](/comportamentais/strategy/Strategy.md)
 
-> Encapsula uma família de algoritmos e utiliza composição para torná-los intercambiáveis
-
-> Diversos algoritmos que podem ser usados de forma intercambiável.
-> Com o strategy, a escolha de qual algoritmo usar pode ser feita em tempo de execução.
+> Encapsula uma família de algoritmos e utiliza composição para torná-los intercambiáveis<br>
+> A escolha de qual algoritmo usar pode ser feita em tempo de execução
 
 - Composição
 - Interface que abstrái determinado comportamento (Strategy)
@@ -42,14 +39,14 @@ a melhor decisão na hora de modelar e desenvolver o software.
 ---
 ### [State](/comportamentais/state/State.md)
 
-> Encapsula diferentes estados que uma entidade pode conter<br>
-> Entidade que muda seu comportamento com base no seu estado<br>
-> Delega a execução do comportamento para o Estado
+> Mudança de comportamento tendo como base o estado interno de um objeto<br>
+> Encapsula diferentes estados que implementam uma mesma interface<br>
 
 - Composição
 - Classe contexto contém um objeto do tipo de uma interface
 - Estados concretos implementam a interface
-- Classe contexto delega a execução de comportamentos dependentes do estado, para os estados concretos
+- Classe contexto delega a execução de determinados comportamentos para uma instância da interface
+- Estados podem alterar o contexto
 
 
 ---
