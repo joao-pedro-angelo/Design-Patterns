@@ -1,6 +1,8 @@
 # Strategy
 
 > Veja a modelagem deste padrão: [Modelagem - Strategy](/imagens/img02.png)
+>>OBS.: Na modelagem acima, a classe contexto contém uma referência para uma implementação concreta da estratégia.
+>>Porém, a referência tem que ser para a interface.
 
 > Classe Contexto: classe principal que possue uma referência para uma interface
 
