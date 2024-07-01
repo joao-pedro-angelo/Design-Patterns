@@ -16,7 +16,7 @@
 ---
 ## UML
 
-> Em construção
+[Slides sobre UML](materialEmPDF/Diagramas%20de%20Classes.pdf)
 
 ---
 ## Design Patterns
