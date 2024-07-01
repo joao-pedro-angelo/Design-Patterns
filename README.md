@@ -11,7 +11,8 @@
 ---
 ## Git e GitHub
 
-> Em construção
+[Slides sobre versionamento de código](materialEmPDF/Versionamento%2C%20git%20e%20github.pdf)<br>
+[Site com material escrito sobre Branching](https://nvie.com/posts/a-successful-git-branching-model/)
 
 ---
 ## UML
