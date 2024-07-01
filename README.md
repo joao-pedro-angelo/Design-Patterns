@@ -16,7 +16,8 @@
 ---
 ## UML
 
-[Slides sobre UML](materialEmPDF/Diagramas%20de%20Classes.pdf)
+[Slides sobre UML](materialEmPDF/Diagramas%20de%20Classes.pdf)<br>
+[Site com material escrito sobre UML](http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/uml.htm)
 
 ---
 ## Design Patterns
