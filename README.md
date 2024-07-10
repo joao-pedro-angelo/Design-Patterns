@@ -28,3 +28,8 @@
 [Slides - GRASP](materialEmPDF/Padrões%20GRASP.pdf)<br>
 [Padrões Comportamentais](/comportamentais)<br>
 [Padrões Criacionais](/criacionais)<br>
+
+---
+## Avaliações
+
+[Avaliação 01](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava1)
