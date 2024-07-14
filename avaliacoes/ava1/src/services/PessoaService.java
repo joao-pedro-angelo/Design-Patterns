@@ -23,10 +23,11 @@ public class PessoaService {
         this.repositorioPessoa.cadastrar(createPessoaDTO);
     }
 
-    public void atualizarPessoa(int idade, String endereco,
+    public void atualizarPessoa(String cpf, int idade, String endereco,
                                 String telefone, String profissao){
         AtualizarPessoaDTO atualizarPessoaDTO = new AtualizarPessoaDTO(
                 idade, endereco, telefone, profissao);
+        this.repositorioPessoa.atualizar(atualizarPessoaDTO, cpf);
     }
 
     public void removerPessoa(String cpf){

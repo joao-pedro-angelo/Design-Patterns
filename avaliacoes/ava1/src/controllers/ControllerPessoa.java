@@ -19,8 +19,8 @@ public class ControllerPessoa {
         this.service.removerPessoa(cpf);
     }
 
-    public void atualizarPessoa(int idade, String endereco, String telefone, String profissao){
-        this.service.atualizarPessoa(idade, endereco, telefone, profissao);
+    public void atualizarPessoa(String cpf, int idade, String endereco, String telefone, String profissao){
+        this.service.atualizarPessoa(cpf, idade, endereco, telefone, profissao);
     }
 
     public GetPessoaDTO getPessoaDTO(String cpf){
