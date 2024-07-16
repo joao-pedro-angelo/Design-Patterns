@@ -26,6 +26,8 @@
 [Site - Refactoring Guru](https://refactoring.guru/design-patterns)<br>
 [Slides - Introdução aos Padrões de Projeto](materialEmPDF/Projeto%20de%20Software.pdf)<br>
 [Slides - GRASP](materialEmPDF/Padrões%20GRASP.pdf)<br>
+[Slides - Herança x Composição](materialEmPDF/Herança%20vs.%20Composição.pdf)<br>
+[Slides - Programe para Interfaces](materialEmPDF/Interface%20vs.%20Implementação.pdf)<br>
 [Padrões Comportamentais](/comportamentais)<br>
 [Padrões Criacionais](/criacionais)<br>
 
