@@ -34,4 +34,6 @@
 ---
 ## Avaliações
 
-[Avaliação 01](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava1)
+[Avaliação 01](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava1)<br>
+[Avaliação 02](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava2)
+
