@@ -1,6 +1,6 @@
 # Avaliação 02
 
-> Minha solução: [src](src)
+> Minha solução: [src](src/main/java)
 
 Considerando os padrões GRASP (information expert, creator, low coupling e high cohesion), desenvolva um código em Java (não deve ser web)
 para um mercado que permita a venda de produtos a partir de um pagamento.<br>
