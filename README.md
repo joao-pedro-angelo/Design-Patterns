@@ -38,3 +38,7 @@
 [Avaliação 02](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava2)<br>
 [Avaliação 03](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava3)
 
+---
+## Projeto
+
+[Especificação](especificacaoProjeto.pdf)
