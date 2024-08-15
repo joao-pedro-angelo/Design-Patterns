@@ -36,7 +36,9 @@
 
 [Avaliação 01](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava1)<br>
 [Avaliação 02](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava2)<br>
-[Avaliação 03](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava3)
+[Avaliação 03](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava3)<br>
+[Avaliação 04](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava4/psoft-atividade-4-joao-pedro-angelo-main)
+
 
 ---
 ## Projeto
