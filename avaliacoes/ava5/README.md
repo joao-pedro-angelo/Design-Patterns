@@ -1,5 +1,7 @@
 # Avaliação 05 - Padrão Strategy
 
+> Meu código: [src](src)
+
 Algoritmos de ordenação têm como objetivo colocar elementos em uma sequência ordenada.
 Existem pelo menos quatro formas bastante difundidas de ordenação: bubble sort, insertion sort, merge sort e quick sort.
 Dependendo dos dados a serem ordenados é possível que um algoritmo diferente seja o mais eficiente para cada cenário.
