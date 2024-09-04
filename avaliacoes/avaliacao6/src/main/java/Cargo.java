@@ -1,0 +1,4 @@
+enum Cargo{
+    Desenvolvedor,
+    ScrumMaster
+}
