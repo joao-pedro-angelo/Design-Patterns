@@ -41,6 +41,7 @@
 [Avaliação 05](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava5)<br>
 [Avaliação 06](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/avaliacao6)<br>
 [Avaliação 07](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava7)<br>
+[Avaliação 08](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/avaliacoes/ava8)<br>
 
 
 ---
