@@ -49,4 +49,5 @@
 ---
 ## Projeto
 
-[Especificação](especificacaoProjeto.pdf)
+[Especificação](especificacaoProjeto.pdf)<br>
+[Código](https://github.com/joao-pedro-angelo/PSOFT-UFCG/tree/main/PITSa/src)
